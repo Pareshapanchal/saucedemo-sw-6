@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4538179900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should get error message with Invalid credentials",
+        "description": "",
+        "id": "login-test;user-should-get-error-message-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 668883700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134446000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70936700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter username \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53650400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter password \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55523800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40672000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see errorMessage",
+            "match": {
+              "location": "LoginSteps.iShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into saucedemo website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
